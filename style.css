@@ -69,6 +69,7 @@ img {
 #third-div {
     overflow: hidden;
     height: 500px;
+    margin-top: 20px;
 }
 
 #greenDiv {
@@ -88,7 +89,8 @@ img {
 #fourth-div {
     background-color: #9ba89f;
     text-align: center;
-    height: 550px;
+    height: 750px;
+    
 }
 
 #fourth-div h1 {
