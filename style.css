@@ -1,0 +1,174 @@
+/* #162d23 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #2d5442;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    padding-left: 6px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a {
+    color: #2d5442;
+    padding-left: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#sloganDiv {
+    background-color: #b8b396;
+    text-align: center;
+}
+
+#main {
+    margin: 0px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+#slogan {
+    color: #2d5442;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#second-div {
+    background-color: #f4ece1;
+    width: 100%;
+    height: 750px;
+}
+
+#title {
+    color: #2d5442;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+#second-div p {
+    color: #2d5442;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#third-div {
+    overflow: hidden;
+    height: 500px;
+}
+
+#greenDiv {
+    float: left;
+    width: 50%;
+    height: 500px;
+    background-color: #2d5442;
+}
+
+#greyDiv {
+    background-color: #9ba89f;
+    float: left;
+    width: 50%;
+    height: 500px;
+}
+
+#fourth-div {
+    background-color: #9ba89f;
+    text-align: center;
+    height: 550px;
+}
+
+#fourth-div h1 {
+    color: #2d5442;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#fourth-div p {
+    color: #2d5442;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* TELEFON */
+@media only screen and (max-width: 600px) {
+    img {
+        width: 100%;
+    }
+
+    #sloganDiv {
+        width: 100%;
+        height: 300px;
+    }
+
+    #bookButton {
+        color: #2d5442;
+        border: 2px solid #8a896b;
+        padding: 10px 20px 10px 20px;
+        margin-top: 10px;
+    }
+
+    #second-div {
+        text-align: center;
+    }
+    
+    #second-div #room {
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    #second-div #logo {
+        width: 40%;
+    }
+
+    #second-div p {
+        width: 70%;
+        display: inline-block;
+    }
+
+    #slogan {
+        font-size: 40px;
+    }
+
+    #exploreButton {
+        color: #2d5442;
+        border: 2px solid #8a896b;
+        padding: 10px 20px 10px 20px;
+        margin-top: 10px;
+    }
+
+    #third-div img {
+        position: absolute;
+        width: 45%;
+        transform: translateX(-50%);
+    }
+
+    #third-div #piscina {
+        left: 25%;
+        margin-top: calc(50% - 100px);
+    }
+
+    #third-div #mancare {
+        margin-top: calc(50% - 100px);
+        left: 75%;
+    }
+
+    #fourth-div img {
+        width: 60%;
+    }
+
+    #fourth-div p {
+        width: 70%;
+        display: inline-block;
+    }
+}
